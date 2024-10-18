@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MWErrorOutputMismatch" xml:space="preserve">
+    <value>Number of outputs returned by function does not match size of FEVAL output array</value>
+  </data>
+  <data name="MWErrorDataArraySizeMismatch" xml:space="preserve">
+    <value>The size of the data arrays must match</value>
+  </data>
+  <data name="MWError2DimensionMin" xml:space="preserve">
+    <value>Arrays must have at least two dimensions</value>
+  </data>
+  <data name="MWErrorRemoteConstructor" xml:space="preserve">
+    <value>The default constructor can only be called by .NET remoting </value>
+  </data>
+  <data name="MWErrorNotScalar" xml:space="preserve">
+    <value>Value must be a scalar</value>
+  </data>
+  <data name="MWErrorNotNameValuePair" xml:space="preserve">
+    <value>The argument is not a valid field name value pair</value>
+  </data>
+  <data name="MWErrorNotDomainServer" xml:space="preserve">
+    <value>The MATLAB Runtime is not running as a domain server</value>
+  </data>
+  <data name="MWErrorUnsupportedArrayType" xml:space="preserve">
+    <value>Unsupported array type:</value>
+  </data>
+  <data name="MWErrorMATFileMode" xml:space="preserve">
+    <value>The MAT file mode must be either Append or Create  </value>
+  </data>
+  <data name="MWErrorNotAMatrix" xml:space="preserve">
+    <value>The array must be a two dimensional matrix</value>
+  </data>
+  <data name="MWErrorBadFieldName" xml:space="preserve">
+    <value>The argument is not a valid field name</value>
+  </data>
+  <data name="MWErrorOneBasedIndexing" xml:space="preserve">
+    <value>MATLAB arrays use 1-based indexing</value>
+  </data>
+  <data name="MWErrorFieldNotFound" xml:space="preserve">
+    <value>The specified field was not found</value>
+  </data>
+  <data name="MWErrorArrayNameArrayMismatch" xml:space="preserve">
+    <value>The number of output arrays did not match the number of array names</value>
+  </data>
+  <data name="MWErrorJaggedArray" xml:space="preserve">
+    <value>Jagged arrays are not allowed</value>
+  </data>
+  <data name="MWErrorReadOnlyArray" xml:space="preserve">
+    <value>Attempt to modify a read-only array</value>
+  </data>
+  <data name="MWErrorObjectDisposed" xml:space="preserve">
+    <value>Invalid access to disposed object</value>
+  </data>
+  <data name="MWErrorNotSupported" xml:space="preserve">
+    <value>Operation is not supported on specified MATLAB array type   </value>
+  </data>
+  <data name="MWErrorNegativeArg" xml:space="preserve">
+    <value>Argument must be non-negative</value>
+  </data>
+  <data name="MWErrorNotRectangularJaggedArray" xml:space="preserve">
+    <value>The input Array is not a rectangular shaped jagged array</value>
+  </data>
+  <data name="MWErrorMATFileArrayMax" xml:space="preserve">
+    <value>The MAT file load and save methods are limited to 16 arrays</value>
+  </data>
+  <data name="MWErrorEvalFunctionArg" xml:space="preserve">
+    <value>Parameter must not be null and must contain at least numArgsIn elements</value>
+  </data>
+  <data name="MWErrorInvalidDimensions" xml:space="preserve">
+    <value>The specified dimensions are invalid</value>
+  </data>
+  <data name="MWErrorMCRServerNotFound" xml:space="preserve">
+    <value>Could not locate MATLAB Runtime server</value>
+  </data>
+  <data name="MWErrorExceededMaxOutputArgs" xml:space="preserve">
+    <value>Invalid number of output arguments requested</value>
+  </data>
+  <data name="MWNotSerializeable" xml:space="preserve">
+    <value>The encapsulated object does not support serialization</value>
+  </data>
+  <data name="MWErrorNotSupportedWIN64" xml:space="preserve">
+    <value>This method is not currently supported on Win64 platforms</value>
+  </data>
+  <data name="MWErrorFormatError" xml:space="preserve">
+    <value>Error formatting array output</value>
+  </data>
+  <data name="MWErrorMCRInitialization" xml:space="preserve">
+    <value>MATLAB Runtime initialization error</value>
+  </data>
+  <data name="MWErrorInvalidArrayDataType" xml:space="preserve">
+    <value>Unexpected error - Invalid numeric array data type</value>
+  </data>
+  <data name="MWErrorMCRTermination" xml:space="preserve">
+    <value>The MATLAB Runtime instance could not be terminated</value>
+  </data>
+  <data name="MWErrorRealImaginaryDimensionMismatch" xml:space="preserve">
+    <value>Real and imaginary array must have the same dimensions</value>
+  </data>
+  <data name="MWErrorMCRInitialize" xml:space="preserve">
+    <value>The MATLAB Runtime instance could not be initialized</value>
+  </data>
+  <data name="MWErrorUnexpected" xml:space="preserve">
+    <value>An unexpected internal error has occured</value>
+  </data>
+  <data name="MWErrorAllocatingMXArray" xml:space="preserve">
+    <value>Can't allocate memory for MXArray from unmanaged code</value>
+  </data>
+  <data name="MWErrorMCRURLNotSpecified" xml:space="preserve">
+    <value>MATLAB Runtime URL was not specified in the application configuration file</value>
+  </data>
+  <data name="MWErrorFieldNotString" xml:space="preserve">
+    <value>Field name must be a non empty string</value>
+  </data>
+  <data name="MWErrorInvalidEnumeratorValue" xml:space="preserve">
+    <value>Out of range enumerator value</value>
+  </data>
+  <data name="MWErrorCTFFileNotFound" xml:space="preserve">
+    <value>The ctf file was not found in the specified directory or search path.</value>
+  </data>
+  <data name="MWErrorDomainConfigError" xml:space="preserve">
+    <value>A domain server must be initialized by a configuration file or a configuration callback</value>
+  </data>
+  <data name="MWErrorDataArrayType" xml:space="preserve">
+    <value>The data array type is invalid</value>
+  </data>
+  <data name="MWErrorDataArraySize" xml:space="preserve">
+    <value>The data array must have (row * columns) elements</value>
+  </data>
+  <data name="MWErrorNonPositiveArgument" xml:space="preserve">
+    <value>Argument must be greater than zero</value>
+  </data>
+  <data name="MWErrorInvalidIndices" xml:space="preserve">
+    <value>The size of the data indices must match</value>
+  </data>
+  <data name="MWErrorInvalidDataConversion" xml:space="preserve">
+    <value>Cannot convert MWArray to requested type</value>
+  </data>
+  <data name="MWErrorArrayStringSize" xml:space="preserve">
+    <value>The strings array parameter must have a length equal to rows and a string length equal to columns </value>
+  </data>
+  <data name="MWErrorArrayStringType" xml:space="preserve">
+    <value>Only string arrays are allowed</value>
+  </data>
+  <data name="MWErrorDataArrayRankMismatch" xml:space="preserve">
+    <value>The rank of the data arrays must match</value>
+  </data>
+  <data name="MWErrorSparseNotSupported" xml:space="preserve">
+    <value>This indexer does not support sparse arrays</value>
+  </data>
+  <data name="MWErrorInvalidArray" xml:space="preserve">
+    <value>The current array is invalid</value>
+  </data>
+  <data name="MWErrorInvalidIndex" xml:space="preserve">
+    <value>Invalid index</value>
+  </data>
+  <data name="MWErrorURLNotSpecified" xml:space="preserve">
+    <value>MATLAB Runtime Server configurations must specify a URL for the server</value>
+  </data>
+  <data name="MWErrorInvalidNullArgument" xml:space="preserve">
+    <value>Invalid Null Argument</value>
+  </data>
+</root>

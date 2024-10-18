@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\APAAPG\Documents\Visual Studio 2017\Projects\TestML\MWArray.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C5DB76AF-6884-46A1-9D2E-1EC72CB25EBE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>MWArray</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <ApplicationVersion>2.19.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>MathWorks.MATLAB.NET</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Arrays\MWArrayType.cs" />
+    <Compile Include="Arrays\MWArray.cs" />
+    <Compile Include="Arrays\MWCellArray.cs" />
+    <Compile Include="Arrays\MWCharArray.cs" />
+    <Compile Include="Arrays\MWIndexArray.cs" />
+    <Compile Include="Arrays\MWLogicalArray.cs" />
+    <Compile Include="Arrays\MWArrayComponent.cs" />
+    <Compile Include="Arrays\MWArrayComplexity.cs" />
+    <Compile Include="Arrays\MWNumericType.cs" />
+    <Compile Include="Arrays\MWNumericArray.cs" />
+    <Compile Include="Arrays\MWObjectArray.cs" />
+    <Compile Include="Arrays\MWResources.cs" />
+    <Compile Include="Arrays\MWStructArray.cs" />
+    <Compile Include="Arrays\native\MWArrayType.cs" />
+    <Compile Include="Arrays\native\MWArray.cs" />
+    <Compile Include="Arrays\native\MWCellArray.cs" />
+    <Compile Include="Arrays\native\MWStructArray.cs" />
+    <Compile Include="Utility\Images.cs" />
+    <Compile Include="Utility\JaggedArray.cs" />
+    <Compile Include="Utility\MWCTFStreamReader.cs" />
+    <Compile Include="Utility\MWException.cs" />
+    <Compile Include="Utility\NativeGCAttribute.cs" />
+    <Compile Include="Utility\MWMarshal.cs" />
+    <Compile Include="Utility\MWMCR.cs" />
+    <Compile Include="Utility\NOJVMAttribute.cs" />
+    <Compile Include="Utility\LOGFILEAttribute.cs" />
+    <Compile Include="Utility\MWMCROptionAttribute.cs" />
+    <Compile Include="Utility\MCRVersion.cs" />
+    <Compile Include="Utility\MATLABSignature.cs" />
+    <Compile Include="Utility\MWMCRVersion.cs" />
+    <Compile Include="Utility\MWSafeHandle.cs" />
+    <Compile Include="Utility\PlatformInfo.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Arrays\MWResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

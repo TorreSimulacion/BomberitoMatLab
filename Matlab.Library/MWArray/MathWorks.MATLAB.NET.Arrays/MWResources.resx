@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="MWErrorOutputMismatch"><value>Number of outputs returned by function does not match size of FEVAL output array</value></data>
+  <data name="MWErrorDataArraySizeMismatch"><value>The size of the data arrays must match</value></data>
+  <data name="MWError2DimensionMin"><value>Arrays must have at least two dimensions</value></data>
+  <data name="MWErrorRemoteConstructor"><value>The default constructor can only be called by .NET remoting </value></data>
+  <data name="MWErrorNotScalar"><value>Value must be a scalar</value></data>
+  <data name="MWErrorNotNameValuePair"><value>The argument is not a valid field name value pair</value></data>
+  <data name="MWErrorNotDomainServer"><value>The MATLAB Runtime is not running as a domain server</value></data>
+  <data name="MWErrorUnsupportedArrayType"><value>Unsupported array type:</value></data>
+  <data name="MWErrorMATFileMode"><value>The MAT file mode must be either Append or Create  </value></data>
+  <data name="MWErrorNotAMatrix"><value>The array must be a two dimensional matrix</value></data>
+  <data name="MWErrorBadFieldName"><value>The argument is not a valid field name</value></data>
+  <data name="MWErrorOneBasedIndexing"><value>MATLAB arrays use 1-based indexing</value></data>
+  <data name="MWErrorFieldNotFound"><value>The specified field was not found</value></data>
+  <data name="MWErrorArrayNameArrayMismatch"><value>The number of output arrays did not match the number of array names</value></data>
+  <data name="MWErrorJaggedArray"><value>Jagged arrays are not allowed</value></data>
+  <data name="MWErrorReadOnlyArray"><value>Attempt to modify a read-only array</value></data>
+  <data name="MWErrorObjectDisposed"><value>Invalid access to disposed object</value></data>
+  <data name="MWErrorNotSupported"><value>Operation is not supported on specified MATLAB array type   </value></data>
+  <data name="MWErrorNegativeArg"><value>Argument must be non-negative</value></data>
+  <data name="MWErrorNotRectangularJaggedArray"><value>The input Array is not a rectangular shaped jagged array</value></data>
+  <data name="MWErrorMATFileArrayMax"><value>The MAT file load and save methods are limited to 16 arrays</value></data>
+  <data name="MWErrorEvalFunctionArg"><value>Parameter must not be null and must contain at least numArgsIn elements</value></data>
+  <data name="MWErrorInvalidDimensions"><value>The specified dimensions are invalid</value></data>
+  <data name="MWErrorMCRServerNotFound"><value>Could not locate MATLAB Runtime server</value></data>
+  <data name="MWErrorExceededMaxOutputArgs"><value>Invalid number of output arguments requested</value></data>
+  <data name="MWNotSerializeable"><value>The encapsulated object does not support serialization</value></data>
+  <data name="MWErrorNotSupportedWIN64"><value>This method is not currently supported on Win64 platforms</value></data>
+  <data name="MWErrorFormatError"><value>Error formatting array output</value></data>
+  <data name="MWErrorMCRInitialization"><value>MATLAB Runtime initialization error</value></data>
+  <data name="MWErrorInvalidArrayDataType"><value>Unexpected error - Invalid numeric array data type</value></data>
+  <data name="MWErrorMCRTermination"><value>The MATLAB Runtime instance could not be terminated</value></data>
+  <data name="MWErrorRealImaginaryDimensionMismatch"><value>Real and imaginary array must have the same dimensions</value></data>
+  <data name="MWErrorMCRInitialize"><value>The MATLAB Runtime instance could not be initialized</value></data>
+  <data name="MWErrorUnexpected"><value>An unexpected internal error has occured</value></data>
+  <data name="MWErrorAllocatingMXArray"><value>Can't allocate memory for MXArray from unmanaged code</value></data>
+  <data name="MWErrorMCRURLNotSpecified"><value>MATLAB Runtime URL was not specified in the application configuration file</value></data>
+  <data name="MWErrorFieldNotString"><value>Field name must be a non empty string</value></data>
+  <data name="MWErrorInvalidEnumeratorValue"><value>Out of range enumerator value</value></data>
+  <data name="MWErrorCTFFileNotFound"><value>The ctf file was not found in the specified directory or search path.</value></data>
+  <data name="MWErrorDomainConfigError"><value>A domain server must be initialized by a configuration file or a configuration callback</value></data>
+  <data name="MWErrorDataArrayType"><value>The data array type is invalid</value></data>
+  <data name="MWErrorDataArraySize"><value>The data array must have (row * columns) elements</value></data>
+  <data name="MWErrorNonPositiveArgument"><value>Argument must be greater than zero</value></data>
+  <data name="MWErrorInvalidIndices"><value>The size of the data indices must match</value></data>
+  <data name="MWErrorInvalidDataConversion"><value>Cannot convert MWArray to requested type</value></data>
+  <data name="MWErrorArrayStringSize"><value>The strings array parameter must have a length equal to rows and a string length equal to columns </value></data>
+  <data name="MWErrorArrayStringType"><value>Only string arrays are allowed</value></data>
+  <data name="MWErrorDataArrayRankMismatch"><value>The rank of the data arrays must match</value></data>
+  <data name="MWErrorSparseNotSupported"><value>This indexer does not support sparse arrays</value></data>
+  <data name="MWErrorInvalidArray"><value>The current array is invalid</value></data>
+  <data name="MWErrorInvalidIndex"><value>Invalid index</value></data>
+  <data name="MWErrorURLNotSpecified"><value>MATLAB Runtime Server configurations must specify a URL for the server</value></data>
+  <data name="MWErrorInvalidNullArgument"><value>Invalid Null Argument</value></data>
+  </root>

@@ -1,0 +1,821 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MathNative</name>
+    </assembly>
+    <members>
+        <member name="T:OT.Ternium.MathNative.FireModel">
+            <summary>
+            The FireModel class provides a CLS compliant, Object (native) interface to the
+            MATLAB functions contained in the files:
+            <newpara></newpara>
+            D:\dev\Producto Cursos\PrevencionIncendio\Matlab.Model\fire\combustible.m
+            <newpara></newpara>
+            D:\dev\Producto Cursos\PrevencionIncendio\Matlab.Model\fire\fire.m
+            <newpara></newpara>
+            D:\dev\Producto Cursos\PrevencionIncendio\Matlab.Model\fire\focos.m
+            <newpara></newpara>
+            D:\dev\Producto Cursos\PrevencionIncendio\Matlab.Model\fire\matriz.m
+            </summary>
+            <remarks>
+            @Version 3.5
+            </remarks>
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Runtime instance.
+            </summary>
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.#ctor">
+            <summary>
+            Constructs a new instance of the FireModel class.
+            </summary>
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.combustible">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the combustible MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Definir distribucion inicial del combustible
+             S_int = ones(size(U_int));
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.combustible(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the combustible MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Definir distribucion inicial del combustible
+             S_int = ones(size(U_int));
+             </remarks>
+             <param name="A">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.combustible(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the combustible MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Definir distribucion inicial del combustible
+             S_int = ones(size(U_int));
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.combustible(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the combustible MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Definir distribucion inicial del combustible
+             S_int = ones(size(U_int));
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.combustible(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the combustible function in which the input and output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             Definir distribucion inicial del combustible
+             S_int = ones(size(U_int));
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="U_in1">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="U_in1">Input argument #1</param>
+             <param name="S_in1">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 3-input Objectinterface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="U_in1">Input argument #1</param>
+             <param name="S_in1">Input argument #2</param>
+             <param name="W">Input argument #3</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 4-input Objectinterface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="U_in1">Input argument #1</param>
+             <param name="S_in1">Input argument #2</param>
+             <param name="W">Input argument #3</param>
+             <param name="Tmax">Input argument #4</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 5-input Objectinterface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="U_in1">Input argument #1</param>
+             <param name="S_in1">Input argument #2</param>
+             <param name="W">Input argument #3</param>
+             <param name="Tmax">Input argument #4</param>
+             <param name="Sfin">Input argument #5</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 6-input Objectinterface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="U_in1">Input argument #1</param>
+             <param name="S_in1">Input argument #2</param>
+             <param name="W">Input argument #3</param>
+             <param name="Tmax">Input argument #4</param>
+             <param name="Sfin">Input argument #5</param>
+             <param name="alpha">Input argument #6</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 7-input Objectinterface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="U_in1">Input argument #1</param>
+             <param name="S_in1">Input argument #2</param>
+             <param name="W">Input argument #3</param>
+             <param name="Tmax">Input argument #4</param>
+             <param name="Sfin">Input argument #5</param>
+             <param name="alpha">Input argument #6</param>
+             <param name="k">Input argument #7</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 8-input Objectinterface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="U_in1">Input argument #1</param>
+             <param name="S_in1">Input argument #2</param>
+             <param name="W">Input argument #3</param>
+             <param name="Tmax">Input argument #4</param>
+             <param name="Sfin">Input argument #5</param>
+             <param name="alpha">Input argument #6</param>
+             <param name="k">Input argument #7</param>
+             <param name="Tig">Input argument #8</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 9-input Objectinterface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="U_in1">Input argument #1</param>
+             <param name="S_in1">Input argument #2</param>
+             <param name="W">Input argument #3</param>
+             <param name="Tmax">Input argument #4</param>
+             <param name="Sfin">Input argument #5</param>
+             <param name="alpha">Input argument #6</param>
+             <param name="k">Input argument #7</param>
+             <param name="Tig">Input argument #8</param>
+             <param name="Cs">Input argument #9</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 10-input Objectinterface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="U_in1">Input argument #1</param>
+             <param name="S_in1">Input argument #2</param>
+             <param name="W">Input argument #3</param>
+             <param name="Tmax">Input argument #4</param>
+             <param name="Sfin">Input argument #5</param>
+             <param name="alpha">Input argument #6</param>
+             <param name="k">Input argument #7</param>
+             <param name="Tig">Input argument #8</param>
+             <param name="Cs">Input argument #9</param>
+             <param name="ST">Input argument #10</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 11-input Objectinterface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="U_in1">Input argument #1</param>
+             <param name="S_in1">Input argument #2</param>
+             <param name="W">Input argument #3</param>
+             <param name="Tmax">Input argument #4</param>
+             <param name="Sfin">Input argument #5</param>
+             <param name="alpha">Input argument #6</param>
+             <param name="k">Input argument #7</param>
+             <param name="Tig">Input argument #8</param>
+             <param name="Cs">Input argument #9</param>
+             <param name="ST">Input argument #10</param>
+             <param name="d">Input argument #11</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="U_in1">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="U_in1">Input argument #1</param>
+             <param name="S_in1">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Int32,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 3-input Object interface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="U_in1">Input argument #1</param>
+             <param name="S_in1">Input argument #2</param>
+             <param name="W">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Int32,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 4-input Object interface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="U_in1">Input argument #1</param>
+             <param name="S_in1">Input argument #2</param>
+             <param name="W">Input argument #3</param>
+             <param name="Tmax">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 5-input Object interface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="U_in1">Input argument #1</param>
+             <param name="S_in1">Input argument #2</param>
+             <param name="W">Input argument #3</param>
+             <param name="Tmax">Input argument #4</param>
+             <param name="Sfin">Input argument #5</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 6-input Object interface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="U_in1">Input argument #1</param>
+             <param name="S_in1">Input argument #2</param>
+             <param name="W">Input argument #3</param>
+             <param name="Tmax">Input argument #4</param>
+             <param name="Sfin">Input argument #5</param>
+             <param name="alpha">Input argument #6</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 7-input Object interface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="U_in1">Input argument #1</param>
+             <param name="S_in1">Input argument #2</param>
+             <param name="W">Input argument #3</param>
+             <param name="Tmax">Input argument #4</param>
+             <param name="Sfin">Input argument #5</param>
+             <param name="alpha">Input argument #6</param>
+             <param name="k">Input argument #7</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 8-input Object interface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="U_in1">Input argument #1</param>
+             <param name="S_in1">Input argument #2</param>
+             <param name="W">Input argument #3</param>
+             <param name="Tmax">Input argument #4</param>
+             <param name="Sfin">Input argument #5</param>
+             <param name="alpha">Input argument #6</param>
+             <param name="k">Input argument #7</param>
+             <param name="Tig">Input argument #8</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 9-input Object interface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="U_in1">Input argument #1</param>
+             <param name="S_in1">Input argument #2</param>
+             <param name="W">Input argument #3</param>
+             <param name="Tmax">Input argument #4</param>
+             <param name="Sfin">Input argument #5</param>
+             <param name="alpha">Input argument #6</param>
+             <param name="k">Input argument #7</param>
+             <param name="Tig">Input argument #8</param>
+             <param name="Cs">Input argument #9</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 10-input Object interface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="U_in1">Input argument #1</param>
+             <param name="S_in1">Input argument #2</param>
+             <param name="W">Input argument #3</param>
+             <param name="Tmax">Input argument #4</param>
+             <param name="Sfin">Input argument #5</param>
+             <param name="alpha">Input argument #6</param>
+             <param name="k">Input argument #7</param>
+             <param name="Tig">Input argument #8</param>
+             <param name="Cs">Input argument #9</param>
+             <param name="ST">Input argument #10</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 11-input Object interface to the fire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="U_in1">Input argument #1</param>
+             <param name="S_in1">Input argument #2</param>
+             <param name="W">Input argument #3</param>
+             <param name="Tmax">Input argument #4</param>
+             <param name="Sfin">Input argument #5</param>
+             <param name="alpha">Input argument #6</param>
+             <param name="k">Input argument #7</param>
+             <param name="Tig">Input argument #8</param>
+             <param name="Cs">Input argument #9</param>
+             <param name="ST">Input argument #10</param>
+             <param name="d">Input argument #11</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.fire(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the fire function in which the input and output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             Parametros del modelo
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.focos">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the focos MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             generacion aleatoria de fuegos
+             -----------------------------------
+             Constantes termodinamicas
+             -----------------------------------
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.focos(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the focos MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             generacion aleatoria de fuegos
+             -----------------------------------
+             Constantes termodinamicas
+             -----------------------------------
+             </remarks>
+             <param name="A">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.focos(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the focos MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             generacion aleatoria de fuegos
+             -----------------------------------
+             Constantes termodinamicas
+             -----------------------------------
+             </remarks>
+             <param name="A">Input argument #1</param>
+             <param name="focos">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.focos(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the focos MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             generacion aleatoria de fuegos
+             -----------------------------------
+             Constantes termodinamicas
+             -----------------------------------
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.focos(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the focos MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             generacion aleatoria de fuegos
+             -----------------------------------
+             Constantes termodinamicas
+             -----------------------------------
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.focos(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the focos MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             generacion aleatoria de fuegos
+             -----------------------------------
+             Constantes termodinamicas
+             -----------------------------------
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A">Input argument #1</param>
+             <param name="focos">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.focos(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the focos function in which the input and output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             generacion aleatoria de fuegos
+             -----------------------------------
+             Constantes termodinamicas
+             -----------------------------------
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.matriz">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the matriz MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             A = ones(n,n);
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.matriz(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the matriz MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             A = ones(n,n);
+             </remarks>
+             <param name="Lx">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.matriz(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the matriz MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             A = ones(n,n);
+             </remarks>
+             <param name="Lx">Input argument #1</param>
+             <param name="Ly">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.matriz(System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 3-input Objectinterface to the matriz MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             A = ones(n,n);
+             </remarks>
+             <param name="Lx">Input argument #1</param>
+             <param name="Ly">Input argument #2</param>
+             <param name="d">Input argument #3</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.matriz(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the matriz MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             A = ones(n,n);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.matriz(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the matriz MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             A = ones(n,n);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="Lx">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.matriz(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the matriz MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             A = ones(n,n);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="Lx">Input argument #1</param>
+             <param name="Ly">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.matriz(System.Int32,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 3-input Object interface to the matriz MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             A = ones(n,n);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="Lx">Input argument #1</param>
+             <param name="Ly">Input argument #2</param>
+             <param name="d">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.matriz(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the matriz function in which the input and output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             A = ones(n,n);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:OT.Ternium.MathNative.FireModel.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+    </members>
+</doc>
